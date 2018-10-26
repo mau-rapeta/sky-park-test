@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sky Park | Departamentos</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+     <!-- Desktop navigation -->
+     <nav class="navigation">
+        <div class="container">
+            <ul class="navigation__list">
+                <li class="navigation__item onlyMobile"><span class="navigation__button" id="navi-toggle"></span></li>
+                <li class="navigation__item navigation__empty-space"></li>
+                <li class="navigation__item"><a href="index.html" class="navigation__link onlyDesktop">inicio</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link onlyDesktop">arquitectura</a></li>
+                <li class="navigation__item"><a href="amenidades.html" class="navigation__link onlyDesktop">amenidades</a></li>
+                <li class="navigation__item logo"><a href="index.html"><img src="img/skypark-logo.svg" class="navigation__logo"></a></li>
+                <li class="navigation__item"><a href="departamentos.html" class="navigation__link onlyDesktop active">departamentos</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link onlyDesktop">ubicación</a></li>
+                <li class="navigation__item"><a href="contacto.html" class="navigation__link onlyDesktop">contacto</a></li>
+                <li class="navigation__item navigation__tel"><i class="fa fa-phone" aria-hidden="true"></i> (55) 6283-0316</li>
+                <li class="navigation__item onlyMobile"><img src="img/telefono-movil.svg" alt="tel-icon" class="navigation__tel-icon"></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Menú móvil -->
+    <nav class="navMobile onlyMobile">
+        <ul class="navMobile__list">
+            <li class="navMobile__item"><a href="index.html" class="navMobile__link">inicio</a></li>
+            <li class="navMobile__item"><a href="#" class="navMobile__link">arquitectura</a></li>
+            <li class="navMobile__item"><a href="amenidades.html" class="navMobile__link">amenidades</a></li>
+            <li class="navMobile__item"><a href="departamentos.html" class="navMobile__link">departamentos</a></li>
+            <li class="navMobile__item"><a href="#" class="navMobile__link">ubicación</a></li>
+            <li class="navMobile__item"><a href="contacto.html" class="navMobile__link">contacto</a></li>
+            <div class="navMobile__social">
+                <p>Siguenos en:</p>
+                <div class="navMobile__social-icon-box">
+                    <a href="#"><img src="img/twitter-movil.svg" alt="social-icon" class="navMobile__social-icon"></a>
+                    <a href="#"><img src="img/instagram-movil.svg" alt="social-icon" class="navMobile__social-icon"></a>
+                    <a href="#"><img src="img/facebook-movil.svg" alt="social-icon" class="navMobile__social-icon"></a>
+                    <a href="#"><img src="img/video-movil.svg" alt="social-icon" class="navMobile__social-icon"></a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+    
+    <header class="deptos-header">
+        <h2 class="deptos-header__heading">
+            experiencia<br>comodidad y armonia<br>en el espacio ideal
+        </h2>
+    </header>
+
+
+    <!-- Departamentos Content -->
+
+    <section class="deptos">
+        <div class="container">
+
+            <h3 class="heading-grey heading-grey--deptos heading-grey--toUpper">
+                departamentos de 1, 2 ó 3 recámaras - 60 a 93 M<sup>2</sup>
+            </h3>
+
+            <ul class="nav nav-pills d-flex justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item mx-4">
+                    <a class="nav-link deptos__pill active" id="pills-60-69-tab" data-toggle="pill" href="#pills-60-69" role="tab" aria-controls="pills-60-69" aria-selected="true">
+                        60 m<sup>2</sup> - 69 m<sup>2</sup>
+                    </a>
+                    <a href="#" class="deptos__more">Más información</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link deptos__pill" id="pills-70-79-tab" data-toggle="pill" href="#pills-70-79" role="tab" aria-controls="pills-70-79" aria-selected="false">
+                        70 m<sup>2</sup> - 79 m<sup>2</sup>
+                    </a>
+                    <a href="#" class="deptos__more">Más información</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link deptos__pill" id="pills-80-89-tab" data-toggle="pill" href="#pills-80-89" role="tab" aria-controls="pills-80-89" aria-selected="false">
+                        80 m<sup>2</sup> - 89 m<sup>2</sup>
+                    </a>
+                    <a href="#" class="deptos__more">Más información</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link deptos__pill" id="pills-90-99-tab" data-toggle="pill" href="#pills-90-99" role="tab" aria-controls="pills-90-99" aria-selected="false">
+                        90 m<sup>2</sup> - 99 m<sup>2</sup>
+                    </a>
+                    <a href="#" class="deptos__more">Más información</a>
+                </li>
+            </ul>
+
+            <div class="tab-content tab-content--1" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-60-69" role="tabpanel" aria-labelledby="pills-60-69-tab">
+                    <div class="row">
+
+                        <div class="col-12 col-lg-2">
+                            <div class="deptos__tipos">
+                                <ul class="nav nav-pills" id="links-tab" role="tablist">
+                                    <li><a class="deptos__models active" id="pills-S1-tab" data-toggle="pill" href="#pills-S1" role="tab" aria-controls="pills-S1" aria-selected="true">Tipo S1 | 60.82 m<sup>2</sup></a></li>
+                                    <li><a class="deptos__models" id="pills-S2-tab" data-toggle="pill" href="#pills-S2" role="tab" aria-controls="pills-S2" aria-selected="false">Tipo S2 | 61.01 m<sup>2</sup></a></li>
+                                    <li><a class="deptos__models" id="pills-A1-tab" data-toggle="pill" href="#pills-A1" role="tab" aria-controls="pills-A1" aria-selected="false">Tipo A1 | 66.41 m<sup>2</sup></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-10">
+                            <div class="tab-content" id="pills-subtabContent">
+
+                                <div class="tab-pane fade show active" id="pills-S1" role="tabpanel" aria-labelledby="pills-S1-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-s1.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="tab-pane fade" id="pills-S2" role="tabpanel" aria-labelledby="pills-S2-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-s2.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="tab-pane fade" id="pills-A1" role="tabpanel" aria-labelledby="pills-A1-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-a1.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div><!-- row -->
+                </div>
+                <div class="tab-pane fade" id="pills-70-79" role="tabpanel" aria-labelledby="pills-70-79-tab">
+                    <div class="row">
+
+                        <div class="col-12 col-lg-2">
+                            <div class="deptos__tipos">
+                                <ul class="nav nav-pills" id="links-tab" role="tablist">
+                                    <li><a class="deptos__models active" id="pills-B1-tab" data-toggle="pill" href="#pills-B1" role="tab" aria-controls="pills-B1" aria-selected="true">Tipo B1 | 70.82 m<sup>2</sup></a></li>
+                                    <li><a class="deptos__models" id="pills-B2-tab" data-toggle="pill" href="#pills-B2" role="tab" aria-controls="pills-B2" aria-selected="false">Tipo B2 | 71.01 m<sup>2</sup></a></li>
+                                    <li><a class="deptos__models" id="pills-B3-tab" data-toggle="pill" href="#pills-B3" role="tab" aria-controls="pills-B3" aria-selected="false">Tipo B3 | 76.41 m<sup>2</sup></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-10">
+                            <div class="tab-content" id="pills-subtabContent">
+
+                                <div class="tab-pane fade show active" id="pills-B1" role="tabpanel" aria-labelledby="pills-B1-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-b1.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="tab-pane fade" id="pills-B2" role="tabpanel" aria-labelledby="pills-B2-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-b2.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="tab-pane fade" id="pills-B3" role="tabpanel" aria-labelledby="pills-B3-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-b3.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                    </div><!-- row -->
+                </div>
+                <div class="tab-pane fade" id="pills-80-89" role="tabpanel" aria-labelledby="pills-80-89-tab">
+                    <div class="row">
+
+                        <div class="col-12 col-lg-2">
+                            <div class="deptos__tipos">
+                                <ul class="nav nav-pills" id="links-tab" role="tablist">
+                                    <li><a class="deptos__models active" id="pills-B4-tab" data-toggle="pill" href="#pills-B4" role="tab" aria-controls="pills-B4" aria-selected="true">Tipo B4 | 80.82 m<sup>2</sup></a></li>
+                                    <li><a class="deptos__models" id="pills-B5-tab" data-toggle="pill" href="#pills-B5" role="tab" aria-controls="pills-B5" aria-selected="false">Tipo B5 | 81.01 m<sup>2</sup></a></li>
+                                    <li><a class="deptos__models" id="pills-C1-tab" data-toggle="pill" href="#pills-C1" role="tab" aria-controls="pills-C1" aria-selected="false">Tipo C1 | 86.41 m<sup>2</sup></a></li>
+                                    <li><a class="deptos__models" id="pills-C2-tab" data-toggle="pill" href="#pills-C2" role="tab" aria-controls="pills-C2" aria-selected="false">Tipo C2 | 86.41 m<sup>2</sup></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-10">
+                            <div class="tab-content" id="pills-subtabContent">
+
+                                <div class="tab-pane fade show active" id="pills-B4" role="tabpanel" aria-labelledby="pills-B4-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-b4.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="tab-pane fade" id="pills-B5" role="tabpanel" aria-labelledby="pills-B5-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-b5.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="tab-pane fade" id="pills-C1" role="tabpanel" aria-labelledby="pills-C1-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-c1.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-C2" role="tabpanel" aria-labelledby="pills-C2-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-c2.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                    </div><!-- row -->
+                </div>
+                <div class="tab-pane fade" id="pills-90-99" role="tabpanel" aria-labelledby="pills-90-99-tab">
+                    <div class="row">
+
+                        <div class="col-12 col-lg-2">
+                            <div class="deptos__tipos">
+                                <ul class="nav nav-pills" id="links-tab" role="tablist">
+                                    <li><a class="deptos__models active" id="pills-C3-tab" data-toggle="pill" href="#pills-C3" role="tab" aria-controls="pills-C3" aria-selected="true">Tipo C3 | 90.82 m<sup>2</sup></a></li>
+                                    <li><a class="deptos__models" id="pills-C4-tab" data-toggle="pill" href="#pills-C4" role="tab" aria-controls="pills-C4" aria-selected="false">Tipo C4 | 91.01 m<sup>2</sup></a></li>
+                                    <li><a class="deptos__models" id="pills-D1-tab" data-toggle="pill" href="#pills-D1" role="tab" aria-controls="pills-D1" aria-selected="false">Tipo D1 | 96.41 m<sup>2</sup></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-10">
+                            <div class="tab-content" id="pills-subtabContent">
+
+                                <div class="tab-pane fade show active" id="pills-C3" role="tabpanel" aria-labelledby="pills-C3-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-c3.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="tab-pane fade" id="pills-C4" role="tabpanel" aria-labelledby="pills-C4-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-c4.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="tab-pane fade" id="pills-D1" role="tabpanel" aria-labelledby="pills-D1-tab">
+                                    <div class="deptos__content">
+                                        <div class="deptos__plano-box">
+                                            <img src="img/plano-d1.png" alt="plano" class="deptos__plano">
+                                        </div>
+                                        <div class="deptos__descripcion-box">
+                                            <div class="deptos__descripcion">
+                                                <h4>Descripción:</h4>
+                                                <p>Disponible en piso 1 y piso 8</p>
+                                                <p>Metros habitables | 60.82m<sup>2</sup></p>
+                                                <p>Cocina</p>
+                                                <p>Sala-Comedor</p>
+                                                <p>1 Recamara</p>
+                                                <p>1 1/2 Baños</p>
+                                                <p>Cuarto de lavado</p>
+                                                <p>Vestidor</p>
+                                                <p>Terraza / Balcón | 00 m<sup>2</sup></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                    </div><!-- row -->
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="slider">
+        <div id="interCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#interCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#interCarousel" data-slide-to="1"></li>
+                <li data-target="#interCarousel" data-slide-to="2"></li>
+                <li data-target="#interCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slider__item slider__item--2">
+                        <div class="slider__block slider__block--grey">
+                            <span class="slider__text slider__text--lined">
+                                interiores
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slider__item slider__item--2">
+                        <div class="slider__block slider__block--grey">
+                            <span class="slider__text slider__text--lined">
+                                interiores
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slider__item slider__item--2">
+                        <div class="slider__block slider__block--grey">
+                            <span class="slider__text slider__text--lined">
+                                interiores
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slider__item slider__item--2">
+                        <div class="slider__block slider__block--grey">
+                            <span class="slider__text slider__text--lined">
+                                interiores
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#interCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#interCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="location">
+        <div class="location__container">
+            <div class="location__content">
+                <img src="img/indicador-ubicacion.svg" alt="ubicacion" class="location__logo">
+                <p class="location__paragraph">
+                        SAN LORENZO <span class="bold">1009</span><br>
+                        DEL VALLE<br>
+                        BENITO JUÁREZ<br>
+                        CDMX<br>
+                </p>
+                <p class="location__paragraph">
+                        <span class="bold">SHOWROOM</span><br>
+                        HERIBERTO FRÍAS<br>
+                        <span class="bold">ESQ. SAN LORENZO</span><br>
+                        DEL VALLE<br>
+                        BENITO JUÁREZ<br>
+                        CDMX<br>
+                </p>
+                <img src="img/ficade-logo.svg" alt="ficade" class="location__ficade">
+                <p class="location__web">www.grupoficade.com</p>
+            </div>
+            <footer class="footer">Todos los derechos reservados SKYPARK MIL NUEVE | Aviso de Privacidad</footer>
+            <img src="img/pleca-ubicacion.svg" alt="pleca-ubicacion" class="location__pleca">
+        </div>
+        <picture class="location__map">
+            <img src="img/mapa-skypark-01.svg" alt="map" class="location__map-img">
+        </picture>
+    </section>
+    
+
+    <!-- JS Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
