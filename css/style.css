@@ -102,6 +102,9 @@ a {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center; }
+  @media only screen and (max-width: 61.9375em) {
+    .slider__item {
+      height: 80vw; } }
   .slider__item--1 {
     background-image: url(../img/home-arquitectura.jpg); }
   .slider__item--2 {
@@ -120,6 +123,14 @@ a {
   padding: 6rem 5rem 6rem 2.5rem;
   top: 12rem;
   left: 8rem; }
+  @media only screen and (max-width: 61.9375em) {
+    .slider__block {
+      top: initial;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 2rem 0;
+      text-align: center; } }
   .slider__block--grey {
     background-color: #9C9B9B; }
   .slider__block--black {
@@ -128,8 +139,20 @@ a {
     bottom: 5rem;
     left: 10rem;
     padding: 4rem 2.5rem; }
+    @media only screen and (max-width: 61.9375em) {
+      .slider__block--black {
+        top: initial;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 2rem 0;
+        text-align: center; } }
   .slider__block--transparent {
     background-color: transparent; }
+    @media only screen and (max-width: 61.9375em) {
+      .slider__block--transparent {
+        top: 0;
+        bottom: initial; } }
 
 .slider__text {
   font-size: 1.6rem;
@@ -137,8 +160,10 @@ a {
   text-transform: uppercase;
   line-height: 1.2;
   font-weight: 300;
-  display: block;
+  display: inline-block;
   position: relative; }
+  .slider__text span {
+    display: block; }
   .slider__text--lined::before, .slider__text--lined::after {
     content: "";
     width: 2.2rem;
@@ -151,6 +176,25 @@ a {
     margin-top: 1rem; }
   .slider__text--crossed {
     text-align: center; }
+  @media only screen and (max-width: 61.9375em) {
+    .slider__text {
+      font-size: 2.2rem; }
+      .slider__text span {
+        display: inline-block; } }
+  @media only screen and (max-width: 27.5em) {
+    .slider__text {
+      font-size: 1.6rem; } }
+
+@media only screen and (max-width: 61.9375em) {
+  .slider {
+    padding: 5rem 4rem; }
+    .slider .carousel-indicators,
+    .slider .carousel-control-prev,
+    .slider .carousel-control-next {
+      opacity: 0; }
+    .slider.sport-bar {
+      padding: 0;
+      margin-bottom: 5rem; } }
 
 .navigation {
   width: 100vw;
@@ -339,7 +383,10 @@ a {
     .main-slider .container {
       padding: 0;
       margin: 0;
-      max-width: initial; } }
+      max-width: initial; }
+    .main-slider .carousel-control-prev,
+    .main-slider .carousel-control-next {
+      opacity: 0; } }
   .main-slider__container {
     position: relative;
     height: 55rem; }
@@ -588,6 +635,7 @@ a {
 
 .oasis {
   height: 100vh;
+  min-height: 60rem;
   background-image: url(../img/oasis.jpg);
   -webkit-background-size: cover;
   background-size: cover;
@@ -606,6 +654,9 @@ a {
       .oasis__box {
         width: 80%;
         top: 18rem; } }
+    @media only screen and (max-width: 27.5em) {
+      .oasis__box {
+        top: 15rem; } }
   .oasis__img {
     width: 100%; }
   .oasis__text {
@@ -620,6 +671,10 @@ a {
     top: 50%;
     left: 50%;
     top: 33rem; }
+    @media only screen and (max-width: 27.5em) {
+      .oasis__text {
+        top: 28rem;
+        font-size: 1.5rem; } }
 
 .location {
   display: grid;
@@ -733,14 +788,17 @@ a {
   position: relative;
   height: 60rem;
   background-image: url(../img/departamentos-lifestyle.jpg);
-  -webkit-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: 100% 100%;
+  background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat; }
   @media only screen and (max-width: 61.9375em) {
     .deptos-header {
+      background-attachment: initial;
       -webkit-background-size: cover;
-      background-size: cover; } }
+      background-size: cover;
+      background-position: center top;
+      height: 40rem; } }
   .deptos-header__heading {
     text-transform: uppercase;
     font-size: 3rem;
@@ -759,6 +817,9 @@ a {
     @media only screen and (max-width: 61.9375em) {
       .deptos-header__heading {
         left: 50%; } }
+    @media only screen and (max-width: 61.9375em) {
+      .deptos-header__heading {
+        font-size: 2rem; } }
 
 .deptos {
   padding-top: 4rem;
@@ -823,7 +884,11 @@ a {
     @media only screen and (max-width: 61.9375em) {
       .deptos__tipos {
         margin-left: auto;
-        margin-right: auto; } }
+        margin-right: auto;
+        border-right: 0;
+        border-top: 1px solid #0A4986;
+        border-bottom: 1px solid #0A4986;
+        padding: 2rem 0; } }
   .deptos__models {
     display: -webkit-box;
     display: -webkit-flex;
@@ -856,6 +921,9 @@ a {
     width: 90%;
     display: block;
     margin: 0 auto; }
+    @media only screen and (max-width: 61.9375em) {
+      .deptos__plano {
+        width: 100%; } }
   .deptos__descripcion {
     margin-top: 5rem; }
     @media only screen and (max-width: 61.9375em) {
@@ -893,6 +961,9 @@ a {
       font-weight: 300; }
     .amenidades__heading--ext {
       margin-top: 18rem; }
+      @media only screen and (max-width: 61.9375em) {
+        .amenidades__heading--ext {
+          margin-top: 5rem; } }
   .amenidades__list {
     list-style: none;
     margin-left: 5rem;
